@@ -1,3 +1,6 @@
+// port to change
+// design to add
+
 const PORT = 8000
 // initialise express, axios, cheerio
 const express = require('express')
@@ -5,29 +8,6 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 
 const app = express()
-
-const gazety = [
-    {
-        name: "midi",
-        link: "https://www.midi-madagasikara.mg/",
-        fanampiny: ""
-    },
-    {
-        name: "express",
-        link: "https://lexpress.mg/",
-        fanampiny: ""
-    },
-    {
-        name: "tribune",
-        link: "https://www.madagascar-tribune.com/",
-        fanampiny: "https://www.madagascar-tribune.com/"
-    },
-    {
-        name: "la verite",
-        link: "https://laverite.mg/",
-        fanampiny: "https://laverite.mg/"
-    }
-]
 
 const val_f =  []
 
@@ -61,3 +41,26 @@ app.get('/try', (req,res) => {
 })
 
 app.listen(PORT, () => (console.log(`server runing on ${PORT}`)))
+
+const gazety = [
+    {
+        name: "midi",
+        link: "https://www.midi-madagasikara.mg/",
+        fanampiny: ""
+    },
+    {
+        name: "express",
+        link: "https://lexpress.mg/",
+        fanampiny: ""
+    },
+    {
+        name: "tribune",
+        link: "https://www.madagascar-tribune.com/",
+        fanampiny: "https://www.madagascar-tribune.com/"
+    },
+    {
+        name: "la verite",
+        link: "https://laverite.mg/",
+        fanampiny: "https://laverite.mg/"
+    }
+]
