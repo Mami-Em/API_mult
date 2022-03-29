@@ -44,23 +44,8 @@ app.listen(PORT, () => (console.log(`server runing on ${PORT}`)))
 
 const gazety = [
     {
-        name: "midi",
-        link: "https://www.midi-madagasikara.mg/",
+        name: "",
+        link: "",
         fanampiny: ""
-    },
-    {
-        name: "express",
-        link: "https://lexpress.mg/",
-        fanampiny: ""
-    },
-    {
-        name: "tribune",
-        link: "https://www.madagascar-tribune.com/",
-        fanampiny: "https://www.madagascar-tribune.com/"
-    },
-    {
-        name: "la verite",
-        link: "https://laverite.mg/",
-        fanampiny: "https://laverite.mg/"
     }
 ]
